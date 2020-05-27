@@ -6,6 +6,5 @@
     [Year]   INT         NOT NULL,
     [Des]    NCHAR (500) NOT NULL,
     [Photo]  NCHAR (20)  NULL,
-    PRIMARY KEY CLUSTERED ([Id] ASC)
 );
 
