@@ -1,0 +1,9 @@
+D:\PROGRAMIRANE\ILibrary\ILibrary\AllBooks\bin\Debug\AllBooks.dacpac
+D:\PROGRAMIRANE\ILibrary\ILibrary\AllBooks\bin\Debug\AllBooks.dll
+D:\PROGRAMIRANE\ILibrary\ILibrary\AllBooks\bin\Debug\AllBooks.pdb
+D:\PROGRAMIRANE\ILibrary\ILibrary\AllBooks\obj\Debug\Model.xml
+D:\PROGRAMIRANE\ILibrary\ILibrary\AllBooks\obj\Debug\refactor.xml
+D:\PROGRAMIRANE\ILibrary\ILibrary\AllBooks\obj\Debug\postdeploy.sql
+D:\PROGRAMIRANE\ILibrary\ILibrary\AllBooks\obj\Debug\predeploy.sql
+D:\PROGRAMIRANE\ILibrary\ILibrary\AllBooks\obj\Debug\AllBooks.dll
+D:\PROGRAMIRANE\ILibrary\ILibrary\AllBooks\obj\Debug\AllBooks.pdb
