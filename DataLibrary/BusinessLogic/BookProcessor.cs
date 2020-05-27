@@ -22,15 +22,52 @@ namespace DataLibrary.BusinessLogic
                 Photo = Photo
             };
 
-            string sql = @"insert int dbo.Books (Title, Author, Genre, Year, Des, Photo)
-                           values (@Title, @Author, @Genre, @Year, @Des, @Photo)";
+            string sql = @"insert into dbo.Books (Id, Title, Author, Genre, Year, Des, Photo)
+                           values (5, @Title, @Author, @Genre, @Year, @Des, @Photo)";
 
             return SqlDataAccess.SaveData(sql, data);
         }
         public static List<AllBooks> LoadBooks()
         {
-            string sql = @"select Id, Title, Author, Genre, Year, Des, Photo
+            string sql = @"select *
                         from dbo.Books;";
+            return SqlDataAccess.LoadData<AllBooks>(sql);
+        }
+
+
+        public static List<AllBooks> LoadBiography()
+        {
+            string sql = @"select *
+                        from dbo.Books where Genre = 'Biography';";
+            return SqlDataAccess.LoadData<AllBooks>(sql);
+        }
+
+
+        public static List<AllBooks> LoadComedy()
+        {
+            string sql = @"select *
+                        from dbo.Books where Genre = 'Comedy';";
+            return SqlDataAccess.LoadData<AllBooks>(sql);
+        }
+
+        public static List<AllBooks> LoadHorror()
+        {
+            string sql = @"select *
+                        from dbo.Books where Genre = 'Horror';";
+            return SqlDataAccess.LoadData<AllBooks>(sql);
+        }
+
+        public static List<AllBooks> LoadFantasy()
+        {
+            string sql = @"select *
+                        from dbo.Books where Genre = 'Fantasy';";
+            return SqlDataAccess.LoadData<AllBooks>(sql);
+        }
+
+        public static List<AllBooks> LoadTragedy()
+        {
+            string sql = @"select *
+                        from dbo.Books where Genre = 'Tragedy';";
             return SqlDataAccess.LoadData<AllBooks>(sql);
         }
     }

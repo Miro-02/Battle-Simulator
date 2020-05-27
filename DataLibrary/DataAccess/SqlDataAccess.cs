@@ -12,7 +12,7 @@ namespace DataLibrary.DataAccess
 {
     public static class SqlDataAccess
     {
-        public static string GetConnectionString(string connectionName = "AllBooks")
+        public static string GetConnectionString(string connectionName = "Books")
         {
             return ConfigurationManager.ConnectionStrings[connectionName].ConnectionString;
         }
@@ -32,5 +32,7 @@ namespace DataLibrary.DataAccess
                 return cnn.Execute(sql, data);
             }
         }
+
+
     }
 }
