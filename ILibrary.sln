@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1000
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ILibrary", "ILibrary\ILibrary.csproj", "{43E3E934-1ED0-460D-885C-40B500B751A2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLibrary", "DataLibrary\DataLibrary.csproj", "{A2D3444E-E29D-43BD-A6D5-C2BF8EA67EC1}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AllBooks", "AllBooks\AllBooks.sqlproj", "{67FAF4F9-56D9-42F4-8A51-B5655BB63855}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestILibrary", "UnitTestILibrary\UnitTestILibrary.csproj", "{90FA16CC-21B2-4BCD-9019-44F13505D56E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{67FAF4F9-56D9-42F4-8A51-B5655BB63855}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67FAF4F9-56D9-42F4-8A51-B5655BB63855}.Release|Any CPU.Build.0 = Release|Any CPU
 		{67FAF4F9-56D9-42F4-8A51-B5655BB63855}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{90FA16CC-21B2-4BCD-9019-44F13505D56E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90FA16CC-21B2-4BCD-9019-44F13505D56E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90FA16CC-21B2-4BCD-9019-44F13505D56E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90FA16CC-21B2-4BCD-9019-44F13505D56E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
